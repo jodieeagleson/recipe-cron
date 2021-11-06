@@ -4,6 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "cron": "^1.8.2"
-  }
+    "axios": "^0.24.0",
+    "cron": "^1.8.2",
+    "dotenv": "^10.0.0"
+  },
+  "repository": "https://github.com/jodieeagleson/recipe-cron.git",
+  "author": "Alex <alexeagleson@gmail.com>"
 }
