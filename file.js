@@ -7,7 +7,7 @@ const recipeSelector = () => {
 }
 
 console.log('Before job instantiation');
-var job = new CronJob('* */1 * * *', function() {
+var job = new CronJob('* * * * *', function() {
   console.log(recipeSelector(recipes));
 }, null, true, 'America/Los_Angeles');
 console.log('After job instantiation');
