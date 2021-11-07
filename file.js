@@ -8,7 +8,7 @@ const recipeSelector = () => {
     return recipes[Math.floor(Math.random()*recipes.length)];
 }
 
-var job = new CronJob('* * * * * *', function() {
+var job = new CronJob('* * */3 * *', function() {
   console.log(sendFoodToDiscord());
 }, null, true, 'America/Los_Angeles');
 console.log('After job instantiation');
