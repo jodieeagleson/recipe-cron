@@ -8,7 +8,7 @@ axios.js
 dotenv.js
 
 ###### Default interval:
-Every second
+16:00 every Sunday
 
 ###### Add a .env file with the following structure:
 DA_HOOK="your webhook url"
